@@ -1125,8 +1125,9 @@
     {
       "@id": "https://repolex.ai/r/run-llama/llama_index/commit/4937fc017cbf91d08c6beaadb790ae44745a87a1",
       "git:hexsha": "4937fc017cbf91d08c6beaadb790ae44745a87a1",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "v0.14.15"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v0.14.15",
+      "repolex:parsedAt": "2026-04-24T16:58:39.340820+00:00"
     },
     {
       "@id": "https://repolex.ai/r/run-llama/llama_index/commit/9e2cf43d6428b9a065132db4d9f586496ad9d2c5",

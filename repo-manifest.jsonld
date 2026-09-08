@@ -1174,7 +1174,7 @@
       "git:hexsha": "0aee974980a1355b12c83c595628c12c4125238f",
       "repolex:parseStatus": "parsed",
       "git:tagName": "v0.14.4",
-      "repolex:parsedAt": "2026-09-08T11:13:00.133499+00:00"
+      "repolex:parsedAt": "2026-09-08T13:12:06.416125+00:00"
     },
     {
       "@id": "https://repolex.ai/r/run-llama/llama_index/commit/91c38eaffdc235a75011c6a267f73a0246b8f4a4",

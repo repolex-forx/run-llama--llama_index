@@ -16,6 +16,7 @@
     "llama-index-core/llama_index/core/base/llms/types.py",
     "llama-index-core/llama_index/core/chat_engine/context.py",
     "llama-index-core/llama_index/core/evaluation/dataset_generation.py",
+    "llama-index-core/llama_index/core/evaluation/retrieval/base.py",
     "llama-index-core/llama_index/core/graph_stores/types.py",
     "llama-index-core/llama_index/core/indices/composability/graph.py",
     "llama-index-core/llama_index/core/indices/knowledge_graph/retrievers.py",
@@ -37,6 +38,7 @@
     "llama-index-core/llama_index/core/query_engine/retry_query_engine.py",
     "llama-index-core/llama_index/core/query_pipeline/components/agent.py",
     "llama-index-core/llama_index/core/readers/file/base.py",
+    "llama-index-core/llama_index/core/schema.py",
     "llama-index-core/llama_index/core/selectors/llm_selectors.py",
     "llama-index-core/llama_index/core/storage/docstore/keyval_docstore.py",
     "llama-index-core/llama_index/core/storage/docstore/simple_docstore.py",
@@ -67,6 +69,7 @@
     "llama-index-integrations/embeddings/llama-index-embeddings-oracleai/tests/test_embeddings_oracleai.py",
     "llama-index-integrations/embeddings/llama-index-embeddings-together/llama_index/embeddings/together/base.py",
     "llama-index-integrations/embeddings/llama-index-embeddings-voyageai/llama_index/embeddings/voyageai/base.py",
+    "llama-index-integrations/extractors/llama-index-extractors-marvin/llama_index/extractors/marvin/base.py",
     "llama-index-integrations/graph_stores/llama-index-graph-stores-nebula/llama_index/graph_stores/nebula/nebula_graph_store.py",
     "llama-index-integrations/graph_stores/llama-index-graph-stores-nebula/llama_index/graph_stores/nebula/nebula_property_graph.py",
     "llama-index-integrations/graph_stores/llama-index-graph-stores-neo4j/llama_index/graph_stores/neo4j/neo4j_property_graph.py",
@@ -83,6 +86,7 @@
     "llama-index-integrations/llms/llama-index-llms-keywordsai/llama_index/llms/keywordsai/base.py",
     "llama-index-integrations/llms/llama-index-llms-llama-cpp/llama_index/llms/llama_cpp/base.py",
     "llama-index-integrations/llms/llama-index-llms-nvidia-triton/llama_index/llms/nvidia_triton/utils.py",
+    "llama-index-integrations/llms/llama-index-llms-nvidia/llama_index/llms/nvidia/base.py",
     "llama-index-integrations/llms/llama-index-llms-oci-data-science/llama_index/llms/oci_data_science/base.py",
     "llama-index-integrations/llms/llama-index-llms-oci-data-science/tests/test_oci_data_science_client.py",
     "llama-index-integrations/llms/llama-index-llms-oci-genai/llama_index/llms/oci_genai/utils.py",
@@ -127,6 +131,7 @@
     "llama-index-integrations/storage/chat_store/llama-index-storage-chat-store-upstash/tests/test_chat_store_upstash_chat_store.py",
     "llama-index-integrations/storage/docstore/llama-index-storage-docstore-elasticsearch/llama_index/storage/docstore/elasticsearch/base.py",
     "llama-index-integrations/storage/index_store/llama-index-storage-index-store-couchbase/llama_index/storage/index_store/couchbase/base.py",
+    "llama-index-integrations/storage/kvstore/llama-index-storage-kvstore-couchbase/llama_index/storage/kvstore/couchbase/base.py",
     "llama-index-integrations/storage/kvstore/llama-index-storage-kvstore-postgres/tests/test_postgres.py",
     "llama-index-integrations/tools/llama-index-tools-mcp/llama_index/tools/mcp/client.py",
     "llama-index-integrations/tools/llama-index-tools-neo4j/llama_index/tools/neo4j/query_validator.py",
@@ -143,6 +148,7 @@
     "llama-index-integrations/vector_stores/llama-index-vector-stores-nile/llama_index/vector_stores/nile/base.py",
     "llama-index-integrations/vector_stores/llama-index-vector-stores-oceanbase/llama_index/vector_stores/oceanbase/base.py",
     "llama-index-integrations/vector_stores/llama-index-vector-stores-opensearch/llama_index/vector_stores/opensearch/base.py",
+    "llama-index-integrations/vector_stores/llama-index-vector-stores-rocksetdb/llama_index/vector_stores/rocksetdb/base.py",
     "llama-index-integrations/vector_stores/llama-index-vector-stores-tablestore/tests/test_vector_stores_tablestore.py",
     "llama-index-integrations/vector_stores/llama-index-vector-stores-vearch/llama_index/vector_stores/vearch/base.py",
     "llama-index-integrations/vector_stores/llama-index-vector-stores-weaviate/tests/test_vector_stores_weaviate.py",
@@ -157,7 +163,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/6c72f27ab52a8214a4a496aaf876a296061fad57.nq.gz",
     "call_sites": 72309,
     "import_statements": 6890,
-    "call_targets_resolved": 10739,
+    "call_targets_resolved": 11019,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -171,5 +177,5 @@
     "extends_class_denormalized": 681,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1801
+  "elapsed_seconds": 1803
 }

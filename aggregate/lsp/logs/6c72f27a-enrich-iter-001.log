@@ -1,0 +1,15 @@
+[2026-11-23T07:39:07Z] === ENRICH ITERATION 1 START | repo=run-llama/llama_index sha=6c72f27a ===
+[2026-11-23T07:39:07Z] [iter=1] PHASE START: enrich repo=run-llama/llama_index sha=6c72f27a runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/6c72f27a-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/6c72f27ab52a8214a4a496aaf876a296061fad57.nq.gz
+[2026-11-23T07:39:07Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-23T07:41:24Z] [iter=1] AST store loaded triples=12865333 load_secs=134 mem_mb=1234 MB
+[2026-11-23T07:41:24Z] [iter=1] Step 2: Finding LSP targets mem_mb=1234 MB
+[2026-11-23T07:41:49Z] [iter=1] LSP targets found call_sites=72309 imports=6890 extends=681 implements=0 secs=25
+[2026-11-23T07:42:12Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1234 MB
+[2026-11-23T07:43:07Z] [iter=1] Position index built positions=882983 nodes_with_types=1136984 secs=55 mem_mb=2313 MB
+[2026-11-23T07:43:07Z] [iter=1] Step 3: Starting LSP resolution mem_mb=2313 MB already_completed_types=[] already_completed_files=0
+[2026-11-23T07:43:07Z] [iter=1] Resolving target type target_type=call_site count=72309
+[2026-11-23T07:43:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=0 resolved=0 errors=0 current=docs/docs/javascript/algolia.js
+[2026-11-23T08:09:11Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=0 new_files_this_iter=0 mem_mb=2324 MB
+[2026-11-23T08:09:11Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/6c72f27ab52a8214a4a496aaf876a296061fad57.nq.gz triples=75765
+[2026-11-23T08:09:12Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-11-23T08:09:12Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=1804 elapsed_min=30.1 files_completed=0

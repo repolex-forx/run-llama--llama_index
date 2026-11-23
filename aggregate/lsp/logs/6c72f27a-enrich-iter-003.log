@@ -1,0 +1,18 @@
+[2026-11-23T08:47:35Z] === ENRICH ITERATION 3 START | repo=run-llama/llama_index sha=6c72f27a ===
+[2026-11-23T08:47:35Z] [iter=3] PHASE START: enrich repo=run-llama/llama_index sha=6c72f27a runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/6c72f27a-enrich-iter-003.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/6c72f27ab52a8214a4a496aaf876a296061fad57.nq.gz
+[2026-11-23T08:47:35Z] [iter=3] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-11-23T08:50:15Z] [iter=3] AST store loaded triples=12865333 load_secs=155 mem_mb=1236 MB
+[2026-11-23T08:50:15Z] [iter=3] Step 2: Finding LSP targets mem_mb=1236 MB
+[2026-11-23T08:50:56Z] [iter=3] LSP targets found call_sites=72309 imports=6890 extends=681 implements=0 secs=41
+[2026-11-23T08:51:01Z] [iter=3] Loaded checkpoint partial graph triples=90410
+[2026-11-23T08:51:01Z] [iter=3] Primed enclosing-def cache from persisted triples entries=276
+[2026-11-23T08:51:39Z] [iter=3] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1236 MB
+[2026-11-23T08:53:17Z] [iter=3] Position index built positions=882983 nodes_with_types=1136984 secs=99 mem_mb=2557 MB
+[2026-11-23T08:53:17Z] [iter=3] Step 3: Starting LSP resolution mem_mb=2557 MB already_completed_types=[] already_completed_files=1
+[2026-11-23T08:53:17Z] [iter=3] Resolving target type target_type=call_site count=72309
+[2026-11-23T08:53:18Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=5.7 files_done=0 resolved=0 errors=0 current=docs/docs/_static/js/algolia.js
+[2026-11-23T09:15:38Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=28.0 files_done=1 resolved=691 errors=0 current=llama-index-integrations/readers/llama-index-readers-web/llama_index/readers/web/readability_web/Readability.js
+[2026-11-23T09:17:49Z] [iter=3] CHECKPOINT TRIGGERED elapsed_min=30.2 files_completed=2 new_files_this_iter=1 mem_mb=2563 MB
+[2026-11-23T09:17:49Z] [iter=3] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/6c72f27ab52a8214a4a496aaf876a296061fad57.nq.gz triples=97824
+[2026-11-23T09:17:50Z] [iter=3] Checkpoint written, exiting with code 7
+[2026-11-23T09:17:50Z] [iter=3] PHASE END: enrich (checkpointed) elapsed_s=1814 elapsed_min=30.2 files_completed=2

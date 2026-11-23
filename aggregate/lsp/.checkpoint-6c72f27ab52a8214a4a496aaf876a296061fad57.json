@@ -1,6 +1,7 @@
 {
   "commit_sha": "6c72f27ab52a8214a4a496aaf876a296061fad57",
   "completed_files": [
+    "docs/docs/_static/js/algolia.js",
     "docs/docs/javascript/algolia.js"
   ],
   "completed_types": [],
@@ -9,7 +10,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/6c72f27ab52a8214a4a496aaf876a296061fad57.nq.gz",
     "call_sites": 72309,
     "import_statements": 6890,
-    "call_targets_resolved": 2607,
+    "call_targets_resolved": 3327,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -23,5 +24,5 @@
     "extends_class_denormalized": 681,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1806
+  "elapsed_seconds": 1813
 }

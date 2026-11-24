@@ -16,6 +16,7 @@
     "experimental/splitter_playground/app.py",
     "llama-datasets/mini_mt_bench_singlegrading/baselines.py",
     "llama-index-cli/llama_index/cli/new_package/base.py",
+    "llama-index-cli/llama_index/cli/rag/base.py",
     "llama-index-cli/llama_index/cli/upgrade/base.py",
     "llama-index-core/llama_index/core/agent/custom/simple.py",
     "llama-index-core/llama_index/core/agent/legacy/react/base.py",
@@ -49,6 +50,7 @@
     "llama-index-core/llama_index/core/evaluation/notebook_utils.py",
     "llama-index-core/llama_index/core/evaluation/relevancy.py",
     "llama-index-core/llama_index/core/evaluation/retrieval/base.py",
+    "llama-index-core/llama_index/core/evaluation/retrieval/evaluator.py",
     "llama-index-core/llama_index/core/extractors/document_context.py",
     "llama-index-core/llama_index/core/extractors/interface.py",
     "llama-index-core/llama_index/core/extractors/metadata_extractors.py",
@@ -71,6 +73,7 @@
     "llama-index-core/llama_index/core/indices/vector_store/retrievers/retriever.py",
     "llama-index-core/llama_index/core/ingestion/pipeline.py",
     "llama-index-core/llama_index/core/ingestion/transformations.py",
+    "llama-index-core/llama_index/core/instrumentation/dispatcher.py",
     "llama-index-core/llama_index/core/llama_dataset/evaluator_evaluation.py",
     "llama-index-core/llama_index/core/llama_pack/download.py",
     "llama-index-core/llama_index/core/llms/callbacks.py",
@@ -110,6 +113,7 @@
     "llama-index-core/llama_index/core/response_synthesizers/accumulate.py",
     "llama-index-core/llama_index/core/response_synthesizers/base.py",
     "llama-index-core/llama_index/core/response_synthesizers/compact_and_refine.py",
+    "llama-index-core/llama_index/core/retrievers/auto_merging_retriever.py",
     "llama-index-core/llama_index/core/retrievers/router_retriever.py",
     "llama-index-core/llama_index/core/schema.py",
     "llama-index-core/llama_index/core/selectors/llm_selectors.py",
@@ -146,6 +150,7 @@
     "llama-index-core/tests/program/test_llm_program.py",
     "llama-index-core/tests/program/test_utils.py",
     "llama-index-core/tests/query_pipeline/test_components.py",
+    "llama-index-core/tests/query_pipeline/test_query.py",
     "llama-index-core/tests/readers/file/test_base.py",
     "llama-index-core/tests/readers/test_load_reader.py",
     "llama-index-core/tests/schema/test_base_node.py",
@@ -153,6 +158,7 @@
     "llama-index-core/tests/tools/test_utils.py",
     "llama-index-core/tests/utilities/test_sql_wrapper.py",
     "llama-index-core/tests/vector_stores/test_simple.py",
+    "llama-index-core/tests/workflow/test_utils.py",
     "llama-index-core/tests/workflow/test_workflow.py",
     "llama-index-experimental/tests/test_pandas.py",
     "llama-index-finetuning/llama_index/finetuning/cross_encoders/cross_encoder.py",
@@ -182,6 +188,7 @@
     "llama-index-integrations/embeddings/llama-index-embeddings-google/llama_index/embeddings/google/gemini.py",
     "llama-index-integrations/embeddings/llama-index-embeddings-huggingface-api/llama_index/embeddings/huggingface_api/base.py",
     "llama-index-integrations/embeddings/llama-index-embeddings-huggingface-api/llama_index/embeddings/huggingface_api/pooling.py",
+    "llama-index-integrations/embeddings/llama-index-embeddings-huggingface-api/tests/test_hf_inference.py",
     "llama-index-integrations/embeddings/llama-index-embeddings-huggingface-openvino/llama_index/embeddings/huggingface_openvino/base.py",
     "llama-index-integrations/embeddings/llama-index-embeddings-huggingface/tests/test_hf_inference.py",
     "llama-index-integrations/embeddings/llama-index-embeddings-ibm/llama_index/embeddings/ibm/base.py",
@@ -189,6 +196,7 @@
     "llama-index-integrations/embeddings/llama-index-embeddings-llamafile/tests/test_embeddings_llamafile.py",
     "llama-index-integrations/embeddings/llama-index-embeddings-nvidia/llama_index/embeddings/nvidia/base.py",
     "llama-index-integrations/embeddings/llama-index-embeddings-nvidia/tests/test_api_key.py",
+    "llama-index-integrations/embeddings/llama-index-embeddings-nvidia/tests/test_available_models.py",
     "llama-index-integrations/embeddings/llama-index-embeddings-nvidia/tests/test_base_url.py",
     "llama-index-integrations/embeddings/llama-index-embeddings-oci-data-science/llama_index/embeddings/oci_data_science/client.py",
     "llama-index-integrations/embeddings/llama-index-embeddings-oci-data-science/tests/test_oci_data_science_client.py",
@@ -256,6 +264,7 @@
     "llama-index-integrations/llms/llama-index-llms-llama-cpp/llama_index/llms/llama_cpp/base.py",
     "llama-index-integrations/llms/llama-index-llms-mistralai/llama_index/llms/mistralai/base.py",
     "llama-index-integrations/llms/llama-index-llms-modelscope/tests/test_modelscope.py",
+    "llama-index-integrations/llms/llama-index-llms-nvidia-tensorrt/llama_index/llms/nvidia_tensorrt/utils.py",
     "llama-index-integrations/llms/llama-index-llms-nvidia-triton/llama_index/llms/nvidia_triton/utils.py",
     "llama-index-integrations/llms/llama-index-llms-nvidia/llama_index/llms/nvidia/base.py",
     "llama-index-integrations/llms/llama-index-llms-nvidia/tests/conftest.py",
@@ -486,7 +495,8 @@
     "llama-index-packs/llama-index-packs-self-discover/llama_index/packs/self_discover/base.py",
     "llama-index-packs/llama-index-packs-self-rag/llama_index/packs/self_rag/base.py",
     "llama-index-packs/llama-index-packs-zenguard/tests/test_packs_zenguard.py",
-    "llama-index-utils/llama-index-utils-qianfan/llama_index/utils/qianfan/apis.py"
+    "llama-index-utils/llama-index-utils-qianfan/llama_index/utils/qianfan/apis.py",
+    "llama-index-utils/llama-index-utils-qianfan/llama_index/utils/qianfan/authorization.py"
   ],
   "completed_types": [],
   "stats": {
@@ -494,7 +504,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/6c72f27ab52a8214a4a496aaf876a296061fad57.nq.gz",
     "call_sites": 72309,
     "import_statements": 6890,
-    "call_targets_resolved": 24899,
+    "call_targets_resolved": 25515,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -508,5 +518,5 @@
     "extends_class_denormalized": 681,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1800
+  "elapsed_seconds": 1808
 }

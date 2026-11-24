@@ -1,0 +1,40 @@
+{
+  "commit_sha": "c80992f18461f86695162a1a5f8333ac5b6d6453",
+  "completed_files": [
+    "llama-datasets/llama2_paper/llamaindex_baseline.py",
+    "llama-index-core/llama_index/core/postprocessor/node.py",
+    "llama-index-core/tests/agent/custom/test_simple_function.py",
+    "llama-index-integrations/embeddings/llama-index-embeddings-huggingface/llama_index/embeddings/huggingface/pooling.py",
+    "llama-index-integrations/llms/llama-index-llms-ibm/llama_index/llms/ibm/base.py",
+    "llama-index-integrations/llms/llama-index-llms-llamafile/llama_index/llms/llamafile/base.py",
+    "llama-index-integrations/llms/llama-index-llms-upstage/tests/test_upstage.py",
+    "llama-index-integrations/readers/llama-index-readers-box/llama_index/readers/box/BoxReader/base.py",
+    "llama-index-integrations/storage/docstore/llama-index-storage-docstore-mongodb/llama_index/storage/docstore/mongodb/base.py",
+    "llama-index-integrations/storage/kvstore/llama-index-storage-kvstore-tablestore/llama_index/storage/kvstore/tablestore/base.py",
+    "llama-index-integrations/vector_stores/llama-index-vector-stores-opensearch/tests/test_opensearch_client.py",
+    "llama-index-integrations/vector_stores/llama-index-vector-stores-qdrant/llama_index/vector_stores/qdrant/base.py",
+    "llama-index-networks/llama_index/networks/contributor/retriever/client.py",
+    "llama-index-packs/llama-index-packs-tables/llama_index/packs/tables/mix_self_consistency/base.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/run-llama/llama_index/lsp/c80992f18461f86695162a1a5f8333ac5b6d6453",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/c80992f18461f86695162a1a5f8333ac5b6d6453.nq.gz",
+    "call_sites": 72272,
+    "import_statements": 6943,
+    "call_targets_resolved": 632,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 0,
+    "extends_clauses": 684,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 20391,
+    "import_symbols_denormalized": 25765,
+    "extends_class_denormalized": 684,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 1818
+}

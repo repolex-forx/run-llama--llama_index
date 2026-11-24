@@ -1,0 +1,25 @@
+[2026-11-24T05:27:05Z] === ENRICH ITERATION 1 START | repo=run-llama/llama_index sha=c80992f1 ===
+[2026-11-24T05:27:05Z] [iter=1] PHASE START: enrich repo=run-llama/llama_index sha=c80992f1 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/c80992f1-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/c80992f18461f86695162a1a5f8333ac5b6d6453.nq.gz
+[2026-11-24T05:27:05Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-24T05:29:51Z] [iter=1] AST store loaded triples=12860516 load_secs=160 mem_mb=1103 MB
+[2026-11-24T05:29:51Z] [iter=1] Step 2: Finding LSP targets mem_mb=1103 MB
+[2026-11-24T05:30:32Z] [iter=1] LSP targets found call_sites=72272 imports=6943 extends=684 implements=0 secs=42
+[2026-11-24T05:31:10Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1103 MB
+[2026-11-24T05:32:46Z] [iter=1] Position index built positions=882658 nodes_with_types=1136567 secs=97 mem_mb=2337 MB
+[2026-11-24T05:32:46Z] [iter=1] Step 3: Starting LSP resolution mem_mb=2337 MB already_completed_types=[] already_completed_files=0
+[2026-11-24T05:32:46Z] [iter=1] Resolving target type target_type=call_site count=72272
+[2026-11-24T05:32:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.7 files_done=0 resolved=0 errors=0 current=llama-index-integrations/storage/kvstore/llama-index-storage-kvstore-tablestore/llama_index/storage/kvstore/tablestore/base.py
+[2026-11-24T05:33:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.9 files_done=1 resolved=29 errors=0 current=llama-datasets/llama2_paper/llamaindex_baseline.py
+[2026-11-24T05:34:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.9 files_done=3 resolved=52 errors=0 current=llama-index-integrations/readers/llama-index-readers-box/llama_index/readers/box/BoxReader/base.py
+[2026-11-24T05:36:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.4 files_done=4 resolved=79 errors=0 current=llama-index-integrations/llms/llama-index-llms-ibm/llama_index/llms/ibm/base.py
+[2026-11-24T05:38:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.7 files_done=5 resolved=150 errors=0 current=llama-index-core/llama_index/core/postprocessor/node.py
+[2026-11-24T05:40:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.2 files_done=6 resolved=218 errors=0 current=llama-index-integrations/embeddings/llama-index-embeddings-huggingface/llama_index/embeddings/huggingface/pooling.py
+[2026-11-24T05:45:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.5 files_done=9 resolved=382 errors=0 current=llama-index-integrations/llms/llama-index-llms-upstage/tests/test_upstage.py
+[2026-11-24T05:46:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.3 files_done=10 resolved=399 errors=0 current=llama-index-integrations/storage/docstore/llama-index-storage-docstore-mongodb/llama_index/storage/docstore/mongodb/base.py
+[2026-11-24T05:47:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.7 files_done=12 resolved=422 errors=0 current=llama-index-integrations/vector_stores/llama-index-vector-stores-opensearch/tests/test_opensearch_client.py
+[2026-11-24T05:54:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.8 files_done=13 resolved=555 errors=0 current=llama-index-packs/llama-index-packs-tables/llama_index/packs/tables/mix_self_consistency/base.py
+[2026-11-24T05:55:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.7 files_done=14 resolved=612 errors=0 current=llama-index-core/tests/storage/chat_store/test_simple_chat_store.py
+[2026-11-24T05:57:24Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=30.3 files_completed=14 new_files_this_iter=14 mem_mb=2344 MB
+[2026-11-24T05:57:24Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/c80992f18461f86695162a1a5f8333ac5b6d6453.nq.gz triples=69735
+[2026-11-24T05:57:25Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-11-24T05:57:25Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=1819 elapsed_min=30.3 files_completed=14

@@ -151,6 +151,7 @@
     "llama-index-core/tests/vector_stores/test_simple.py",
     "llama-index-core/tests/workflow/test_workflow.py",
     "llama-index-experimental/tests/test_pandas.py",
+    "llama-index-finetuning/llama_index/finetuning/cross_encoders/cross_encoder.py",
     "llama-index-finetuning/llama_index/finetuning/cross_encoders/dataset_gen.py",
     "llama-index-finetuning/llama_index/finetuning/rerankers/dataset_gen.py",
     "llama-index-integrations/agent/llama-index-agent-coa/llama_index/agent/coa/step.py",
@@ -346,6 +347,7 @@
     "llama-index-integrations/readers/llama-index-readers-remote-depth/llama_index/readers/remote_depth/base.py",
     "llama-index-integrations/readers/llama-index-readers-s3/tests/test_readers_s3.py",
     "llama-index-integrations/readers/llama-index-readers-sec-filings/llama_index/readers/sec_filings/prepline_sec_filings/api/section.py",
+    "llama-index-integrations/readers/llama-index-readers-sec-filings/llama_index/readers/sec_filings/prepline_sec_filings/sec_document.py",
     "llama-index-integrations/readers/llama-index-readers-sec-filings/llama_index/readers/sec_filings/sec_filings.py",
     "llama-index-integrations/readers/llama-index-readers-snowflake/llama_index/readers/snowflake/base.py",
     "llama-index-integrations/readers/llama-index-readers-stackoverflow/llama_index/readers/stackoverflow/base.py",
@@ -474,7 +476,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/6c72f27ab52a8214a4a496aaf876a296061fad57.nq.gz",
     "call_sites": 72309,
     "import_statements": 6890,
-    "call_targets_resolved": 24138,
+    "call_targets_resolved": 24245,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -488,5 +490,5 @@
     "extends_class_denormalized": 681,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1802
+  "elapsed_seconds": 1808
 }

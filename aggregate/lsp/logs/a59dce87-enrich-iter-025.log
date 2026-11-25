@@ -1,0 +1,31 @@
+[2026-11-25T06:39:52Z] === ENRICH ITERATION 25 START | repo=run-llama/llama_index sha=a59dce87 ===
+[2026-11-25T06:39:52Z] [iter=25] PHASE START: enrich repo=run-llama/llama_index sha=a59dce87 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/a59dce87-enrich-iter-025.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/a59dce878ad2ff6f5e32b744698dcd399fe14276.nq.gz
+[2026-11-25T06:39:52Z] [iter=25] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T06:42:29Z] [iter=25] AST store loaded triples=12840632 load_secs=153 mem_mb=1175 MB
+[2026-11-25T06:42:29Z] [iter=25] Step 2: Finding LSP targets mem_mb=1175 MB
+[2026-11-25T06:43:08Z] [iter=25] LSP targets found call_sites=72152 imports=6971 extends=685 implements=0 secs=39
+[2026-11-25T06:43:24Z] [iter=25] Loaded checkpoint partial graph triples=259846
+[2026-11-25T06:43:24Z] [iter=25] Primed enclosing-def cache from persisted triples entries=3833
+[2026-11-25T06:43:59Z] [iter=25] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1175 MB
+[2026-11-25T06:45:37Z] [iter=25] Position index built positions=881305 nodes_with_types=1134822 secs=98 mem_mb=2718 MB
+[2026-11-25T06:45:37Z] [iter=25] Step 3: Starting LSP resolution mem_mb=2718 MB already_completed_types=[] already_completed_files=440
+[2026-11-25T06:45:37Z] [iter=25] Resolving target type target_type=call_site count=72152
+[2026-11-25T06:45:38Z] [iter=25] HEARTBEAT target_type=call_site elapsed_min=5.8 files_done=0 resolved=0 errors=0 current=llama-index-integrations/embeddings/llama-index-embeddings-nvidia/tests/test_embeddings_nvidia.py
+[2026-11-25T06:46:48Z] [iter=25] HEARTBEAT target_type=call_site elapsed_min=6.9 files_done=1 resolved=22 errors=0 current=llama-index-integrations/tools/llama-index-tools-finance/llama_index/tools/finance/earnings.py
+[2026-11-25T06:47:24Z] [iter=25] HEARTBEAT target_type=call_site elapsed_min=7.5 files_done=2 resolved=34 errors=0 current=llama-index-integrations/indices/llama-index-indices-managed-zilliz/llama_index/indices/managed/zilliz/base.py
+[2026-11-25T06:47:54Z] [iter=25] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=3 resolved=97 errors=0 current=llama-index-integrations/tools/llama-index-tools-cassandra/llama_index/tools/cassandra/cassandra_database_wrapper.py
+[2026-11-25T06:50:13Z] [iter=25] HEARTBEAT target_type=call_site elapsed_min=10.4 files_done=4 resolved=180 errors=0 current=llama-index-core/llama_index/core/llama_dataset/rag.py
+[2026-11-25T06:50:47Z] [iter=25] HEARTBEAT target_type=call_site elapsed_min=10.9 files_done=6 resolved=218 errors=0 current=llama-index-core/llama_index/core/indices/composability/graph.py
+[2026-11-25T06:51:22Z] [iter=25] HEARTBEAT target_type=call_site elapsed_min=11.5 files_done=7 resolved=233 errors=0 current=llama-index-integrations/vector_stores/llama-index-vector-stores-weaviate/tests/test_to_weaviate_filter.py
+[2026-11-25T06:52:11Z] [iter=25] HEARTBEAT target_type=call_site elapsed_min=12.3 files_done=8 resolved=247 errors=0 current=llama-index-integrations/tools/llama-index-tools-google/llama_index/tools/google/calendar/base.py
+[2026-11-25T06:53:48Z] [iter=25] HEARTBEAT target_type=call_site elapsed_min=13.9 files_done=11 resolved=330 errors=0 current=llama-index-core/llama_index/core/indices/keyword_table/retrievers.py
+[2026-11-25T06:54:44Z] [iter=25] HEARTBEAT target_type=call_site elapsed_min=14.9 files_done=12 resolved=357 errors=0 current=llama-index-core/tests/indices/vector_store/test_retrievers.py
+[2026-11-25T06:56:37Z] [iter=25] HEARTBEAT target_type=call_site elapsed_min=16.8 files_done=13 resolved=383 errors=0 current=llama-index-packs/llama-index-packs-code-hierarchy/llama_index/packs/code_hierarchy/code_hierarchy.py
+[2026-11-25T07:01:53Z] [iter=25] HEARTBEAT target_type=call_site elapsed_min=22.0 files_done=14 resolved=512 errors=0 current=llama-index-core/tests/schema/test_media_resource.py
+[2026-11-25T07:02:32Z] [iter=25] HEARTBEAT target_type=call_site elapsed_min=22.7 files_done=15 resolved=525 errors=0 current=benchmarks/vector_stores/bench_simple_vector_store.py
+[2026-11-25T07:03:37Z] [iter=25] HEARTBEAT target_type=call_site elapsed_min=23.8 files_done=17 resolved=567 errors=0 current=llama-index-integrations/vector_stores/llama-index-vector-stores-milvus/tests/test_vector_stores_milvus.py
+[2026-11-25T07:09:36Z] [iter=25] HEARTBEAT target_type=call_site elapsed_min=29.7 files_done=18 resolved=652 errors=0 current=llama-index-core/tests/agent/runner/test_base.py
+[2026-11-25T07:09:57Z] [iter=25] CHECKPOINT TRIGGERED elapsed_min=30.1 files_completed=458 new_files_this_iter=18 mem_mb=2725 MB
+[2026-11-25T07:09:57Z] [iter=25] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/a59dce878ad2ff6f5e32b744698dcd399fe14276.nq.gz triples=266095
+[2026-11-25T07:10:00Z] [iter=25] Checkpoint written, exiting with code 7
+[2026-11-25T07:10:00Z] [iter=25] PHASE END: enrich (checkpointed) elapsed_s=1805 elapsed_min=30.1 files_completed=458

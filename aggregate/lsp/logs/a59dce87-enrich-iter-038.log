@@ -1,0 +1,37 @@
+[2026-11-25T14:32:06Z] === ENRICH ITERATION 38 START | repo=run-llama/llama_index sha=a59dce87 ===
+[2026-11-25T14:32:06Z] [iter=38] PHASE START: enrich repo=run-llama/llama_index sha=a59dce87 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/a59dce87-enrich-iter-038.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/a59dce878ad2ff6f5e32b744698dcd399fe14276.nq.gz
+[2026-11-25T14:32:06Z] [iter=38] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-25T14:34:22Z] [iter=38] AST store loaded triples=12840632 load_secs=133 mem_mb=1122 MB
+[2026-11-25T14:34:22Z] [iter=38] Step 2: Finding LSP targets mem_mb=1122 MB
+[2026-11-25T14:34:47Z] [iter=38] LSP targets found call_sites=72152 imports=6971 extends=685 implements=0 secs=25
+[2026-11-25T14:35:01Z] [iter=38] Loaded checkpoint partial graph triples=357009
+[2026-11-25T14:35:01Z] [iter=38] Primed enclosing-def cache from persisted triples entries=5733
+[2026-11-25T14:35:24Z] [iter=38] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1193 MB
+[2026-11-25T14:36:21Z] [iter=38] Position index built positions=881305 nodes_with_types=1134822 secs=58 mem_mb=3003 MB
+[2026-11-25T14:36:21Z] [iter=38] Step 3: Starting LSP resolution mem_mb=3003 MB already_completed_types=[] already_completed_files=789
+[2026-11-25T14:36:21Z] [iter=38] Resolving target type target_type=call_site count=72152
+[2026-11-25T14:36:23Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=4.3 files_done=0 resolved=0 errors=0 current=llama-index-integrations/tools/llama-index-tools-vectara-query/tests/test_tools_vectara_query.py
+[2026-11-25T14:38:07Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=6.0 files_done=1 resolved=46 errors=0 current=llama-index-core/llama_index/core/readers/json.py
+[2026-11-25T14:38:56Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=5 resolved=122 errors=0 current=llama-index-finetuning/llama_index/finetuning/embeddings/adapter.py
+[2026-11-25T14:39:42Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=7.6 files_done=9 resolved=171 errors=0 current=llama-index-integrations/embeddings/llama-index-embeddings-ibm/llama_index/embeddings/ibm/utils.py
+[2026-11-25T14:43:02Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=10.9 files_done=11 resolved=247 errors=0 current=llama-index-core/llama_index/core/instrumentation/span/base.py
+[2026-11-25T14:45:00Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=12.9 files_done=13 resolved=298 errors=0 current=llama-index-packs/llama-index-packs-agents-llm-compiler/llama_index/packs/agents_llm_compiler/step.py
+[2026-11-25T14:45:52Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=13.8 files_done=14 resolved=330 errors=0 current=llama-index-core/llama_index/core/llama_dataset/simple.py
+[2026-11-25T14:46:31Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=14.4 files_done=16 resolved=364 errors=0 current=llama-index-core/tests/tools/test_types.py
+[2026-11-25T14:47:46Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=15.7 files_done=18 resolved=419 errors=0 current=llama-index-integrations/llms/llama-index-llms-oci-genai/llama_index/llms/oci_genai/base.py
+[2026-11-25T14:49:48Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=17.7 files_done=19 resolved=469 errors=0 current=llama-index-integrations/postprocessor/llama-index-postprocessor-rankllm-rerank/llama_index/postprocessor/rankllm_rerank/base.py
+[2026-11-25T14:50:28Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=18.4 files_done=23 resolved=523 errors=0 current=llama-index-integrations/readers/llama-index-readers-mangadex/llama_index/readers/mangadex/base.py
+[2026-11-25T14:51:33Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=19.4 files_done=25 resolved=584 errors=0 current=llama-index-integrations/embeddings/llama-index-embeddings-alibabacloud-aisearch/llama_index/embeddings/alibabacloud_aisearch/base.py
+[2026-11-25T14:52:08Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=20.0 files_done=26 resolved=601 errors=0 current=llama-index-integrations/readers/llama-index-readers-macrometa-gdn/llama_index/readers/macrometa_gdn/base.py
+[2026-11-25T14:53:57Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=21.9 files_done=28 resolved=654 errors=0 current=llama-index-integrations/readers/llama-index-readers-whisper/tests/test_readers_whisper.py
+[2026-11-25T14:54:52Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=22.8 files_done=30 resolved=725 errors=0 current=llama-index-integrations/storage/kvstore/llama-index-storage-kvstore-tablestore/llama_index/storage/kvstore/tablestore/base.py
+[2026-11-25T14:55:34Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=23.5 files_done=31 resolved=754 errors=0 current=llama-index-integrations/evaluation/llama-index-evaluation-tonic-validate/llama_index/evaluation/tonic_validate/answer_consistency_binary.py
+[2026-11-25T14:56:05Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=24.0 files_done=36 resolved=837 errors=0 current=llama-index-core/llama_index/core/retrievers/router_retriever.py
+[2026-11-25T14:56:44Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=24.6 files_done=37 resolved=868 errors=0 current=llama-index-core/tests/indices/query/test_embedding_utils.py
+[2026-11-25T14:57:41Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=25.6 files_done=39 resolved=894 errors=0 current=llama-index-integrations/agent/llama-index-agent-llm-compiler/llama_index/agent/llm_compiler/output_parser.py
+[2026-11-25T14:58:12Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=26.1 files_done=41 resolved=937 errors=0 current=llama-index-integrations/vector_stores/llama-index-vector-stores-tidbvector/tests/test_vector_stores_tidbvector.py
+[2026-11-25T14:59:40Z] [iter=38] HEARTBEAT target_type=call_site elapsed_min=27.6 files_done=42 resolved=978 errors=0 current=llama-index-integrations/vector_stores/llama-index-vector-stores-lindorm/tests/test_lindorm_client.py
+[2026-11-25T15:03:02Z] [iter=38] CHECKPOINT TRIGGERED elapsed_min=30.9 files_completed=832 new_files_this_iter=43 mem_mb=3016 MB
+[2026-11-25T15:03:02Z] [iter=38] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/a59dce878ad2ff6f5e32b744698dcd399fe14276.nq.gz triples=366546
+[2026-11-25T15:03:07Z] [iter=38] Checkpoint written, exiting with code 7
+[2026-11-25T15:03:07Z] [iter=38] PHASE END: enrich (checkpointed) elapsed_s=1856 elapsed_min=30.9 files_completed=832

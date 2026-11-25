@@ -5,6 +5,8 @@
     "llama-index-core/llama_index/core/indices/property_graph/base.py",
     "llama-index-core/llama_index/core/indices/tree/all_leaf_retriever.py",
     "llama-index-core/llama_index/core/llms/callbacks.py",
+    "llama-index-core/llama_index/core/llms/structured_llm.py",
+    "llama-index-core/llama_index/core/query_pipeline/query.py",
     "llama-index-core/llama_index/core/response_synthesizers/compact_and_accumulate.py",
     "llama-index-core/llama_index/core/response_synthesizers/generation.py",
     "llama-index-core/llama_index/core/workflow/events.py",
@@ -35,10 +37,13 @@
     "llama-index-integrations/readers/llama-index-readers-imdb-review/llama_index/readers/imdb_review/scraper.py",
     "llama-index-integrations/readers/llama-index-readers-sec-filings/llama_index/readers/sec_filings/utils.py",
     "llama-index-integrations/storage/chat_store/llama-index-storage-chat-store-postgres/tests/test_chat_store_postgres_chat_store.py",
+    "llama-index-integrations/vector_stores/llama-index-vector-stores-azureaisearch/llama_index/vector_stores/azureaisearch/base.py",
     "llama-index-integrations/vector_stores/llama-index-vector-stores-epsilla/llama_index/vector_stores/epsilla/base.py",
     "llama-index-integrations/vector_stores/llama-index-vector-stores-google/llama_index/vector_stores/google/genai_extension.py",
     "llama-index-integrations/vector_stores/llama-index-vector-stores-milvus/tests/test_vector_stores_milvus.py",
+    "llama-index-integrations/vector_stores/llama-index-vector-stores-oracledb/llama_index/vector_stores/oracledb/base.py",
     "llama-index-integrations/vector_stores/llama-index-vector-stores-qdrant/llama_index/vector_stores/qdrant/base.py",
+    "llama-index-integrations/vector_stores/llama-index-vector-stores-weaviate/llama_index/vector_stores/weaviate/base.py",
     "llama-index-packs/llama-index-packs-code-hierarchy/tests/test_code_hierarchy_with_skeleton.py",
     "llama-index-packs/llama-index-packs-multidoc-autoretrieval/llama_index/packs/multidoc_autoretrieval/base.py",
     "llama-index-packs/llama-index-packs-panel-chatbot/llama_index/packs/panel_chatbot/app.py",
@@ -50,7 +55,7 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/3e2caa75abb9fb41bf832fd7d8c128db5c9bce35.nq.gz",
     "call_sites": 70363,
     "import_statements": 7404,
-    "call_targets_resolved": 2065,
+    "call_targets_resolved": 2819,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
@@ -64,5 +69,5 @@
     "extends_class_denormalized": 745,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 1806
+  "elapsed_seconds": 1826
 }
